@@ -115,19 +115,21 @@
 }
 
 .aside_h3 {
-    /* //styleName: paragraph3/p-regular; */
     font-family: "Inter", sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 25px;
+    line-height: 27px;
     color: #C3B97F;
-    
+}
+
+.aside_ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
 }
 
 .aside_nav_a {
-    /* //styleName: paragraph3/p-regular; */
     font-family: "Inter", sans-serif;
-
     font-size: 14px;
     font-weight: 400;
     line-height: 25px;
